@@ -15,7 +15,7 @@ class EngagementEngine:
         return True
 
     def get_tier(self):
-        if self.score < 100: return "Newbie"
+        if self.score < 99: return "Newbie"
         if self.score <= 1000: return "Influencer"
         return "Icon"
 
